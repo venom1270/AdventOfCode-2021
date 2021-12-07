@@ -8,4 +8,4 @@ I'll try to do this in Haskell 😎... wish me luck.
 - Day 4: ✅ (code is much better, much more readable 😁 part 1 was tough to setup every utility function and so on but it was worth it in the end - part 2 was cake 😎; the pattern I'm seeing here is: on odd days it's a nightmare, while even days are a little bit more manageable)
 - Day 5: ✅ (wasn't that hard, but solutions is unoptimal - for a functional language - lots of muatations ... - still, it works)
 - Day 6: ✅ (this was actually a very fun task - optimization; part 1 was easy, basically a oneliner, but part 2 needed some thought... defined a simpler/neater recursion function and used memoization (I know how to do it, but not in Haskell - THANK YOU KIND STACKOVERFLOW STRANGER! 🙏) and it works flawlessly, even better than expected 😀)
-
+- Day 7: ✅ (quite easy, similar to Day 6 - used pre-calculated memoization table for part 2 😎)
