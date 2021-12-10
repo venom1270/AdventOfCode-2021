@@ -10,3 +10,4 @@ I'll try to do this in Haskell 😎... wish me luck.
 - Day 6: ✅ (this was actually a very fun task - optimization; part 1 was easy, basically a oneliner, but part 2 needed some thought... defined a simpler/neater recursion function and used memoization (I know how to do it, but not in Haskell - THANK YOU KIND STACKOVERFLOW STRANGER! 🙏) and it works flawlessly, even better than expected 😀)
 - Day 7: ✅ (quite easy, similar to Day 6 - used pre-calculated memoization table for part 2 😎)
 - Day 8: ✅ (not really an elegant solution - in fact part 2 is not a 'purely functional' solution at all - but it works and it's still written in Haskell 😎)
+- Day 9: ✅ (part 1 is done in a very ugly way - redone for part 2; part 2 was quite hard, because some state management was required - opted for doing recursion in sequence using do..let statements)
