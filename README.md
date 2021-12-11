@@ -12,3 +12,4 @@ I'll try to do this in Haskell 😎... wish me luck.
 - Day 8: ✅ (not really an elegant solution - in fact part 2 is not a 'purely functional' solution at all - but it works and it's still written in Haskell 😎)
 - Day 9: ✅ (part 1 is done in a very ugly way - redone for part 2; part 2 was quite hard, because some state management was required - opted for doing recursion in sequence using do..let statements)
 - Day 10: ✅ (this one was rather easy - using only simple recursion and pattern matching; luckily I did part 1 in a way taht made part 2 trivial - only a few changes relating to score calculation 😎)
+- Day 11: ✅ (that was a teaser... not su much because of the algorithm, but moreso because I had to implement it in Haskell 😋 I did it in the end - part 2 was relatively easy, only had to change around a few conditions)
