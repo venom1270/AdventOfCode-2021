@@ -38,10 +38,6 @@ main = do
         print folded
         print $ length folded
 
-        let duplicatesCheck = foldl (\acc x -> case () of _ | elem x acc -> acc | otherwise -> x:acc) [] folded
-
-        print $ length duplicatesCheck
-
         --let folded = foldPaper points folds
         --print folded
         --print $ length folded
