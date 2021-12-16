@@ -17,3 +17,4 @@ I'll try to do this in Haskell 😎... wish me luck.
 - Day 13: ✅ (pretty straightforward; had some difficulties in part 2 with visualization so I used an online tool to see a clearer picture)
 - Day 14: ✅ (luckily I did part 1 in an optimal way, that made part 2 trivial 😎 - though I did stumble around a bit in part 1 due to the nature of functional languages... the code is not pretty)
 - Day 15: ✅ (ok, this was a strange one... did a few optimisations of the algorithm, but the solution for part 2 still takes quite a long time... used simple A* like agorithm)
+- Day 16:  (part 1 done, also part 2, but is not working correctly on my input while test cases are fine... will have to look at it a bit more later; VERY FUN task though 😀)
