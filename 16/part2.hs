@@ -12,22 +12,22 @@ binaryToDec b = binaryToDecHelper (reverse b) 1 where
 
 parseLiteral :: String -> Int -> (Integer, Int)
 parseLiteral [] index = (0,index)
-parseLiteral s index
+parseLiteral s index = let (bin, i) = parseLiteralHelper s index
+                       in (binaryToDec bin, i)
+
+parseLiteralHelper :: String -> Int -> (String, Int)
+parseLiteralHelper [] index = ("",index)
+parseLiteralHelper s index
     | h == '1' =
-        let (l2, i) = parseLiteral (drop 5 s) (index+5)
-        in (t + l2, i)
-    | h == '0' =
-        let newIndex = index + 5
-            diff = newIndex `mod` 4
-            add = 0
-                -- | diff == 0 = 0
-                -- | otherwise = (4-diff)
-        in (t, newIndex + add)
-    | otherwise = (-99999, -99999)
+        let (l2, i) = parseLiteralHelper (drop 5 s) (index+5)
+        in (t ++ l2, i)
+    | h == '0' = (t, index + 5)
+    | otherwise = ("", -99999)
     where literal = substr s 0 5
           h = head literal
-          t = binaryToDec $ tail literal
+          t = tail literal
 
+-- 1489871 - TOO LOW
 parseAllPackets :: String -> Int -> ([Integer], Int)
 parseAllPackets s index 
     | n-7 <= index = ([], index)
